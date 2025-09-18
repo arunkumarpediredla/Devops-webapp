@@ -3,6 +3,6 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-      steps:
-        -name: build
-          run: echo "build is done"
+    steps:
+      - name: build
+        run: echo "build is done"
